@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation</title>
-    <script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
 </head> 
 <body> 
@@ -24,11 +23,13 @@
     <p>Confirm Password : <input type="password" name="cPassword"> </p>
     <label class="alert" id="cpwd"></label><br> <br>
 
-    <p>Phone : <input type="number" name="phone"> </p>
+    <p>Phone : <input type="number" name="Phone"> </p>
     <label class="alert" id="phone"></label><br> <br>   
 
-    <p><input type="submit" value="Check" name="Submit"></p><br>   
+    <p><input type="submit" id="checkbtn" value="Check" name="Submit"></p><br>
+    <label class="validate" id="validate"></label><br><br>   
 
 </form> 
-</body> 
+</body>
+<script src="app.js"></script> 
 </html>

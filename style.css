@@ -1,4 +1,7 @@
-   
+body{
+    background-color: #ffc0cb;
+}
+
 div {  
     box-sizing: border-box; 
     width: 100%; 
@@ -10,6 +13,7 @@ form {
     width: 600px;
     text-align: center;
     border: 1px Solid black;
+    border-radius: 10px;
     background-color: aliceblue;
 }
 
@@ -26,4 +30,8 @@ input{
 }
 .alert{
     color: red;
+}
+
+.validate{
+    color: green;
 }
